@@ -15,11 +15,6 @@ permissions:
   pages: write
   id-token: write
 
-include:
-  - _includes
-  - _layouts
-  - _sass
-  - assets
 
 
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
