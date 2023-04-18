@@ -48,7 +48,7 @@ body {
 }
 
 .header 	{
-	background-color: inherit;
+	background-color: #EDFFFD;
   grid-column-start: 1;
   grid-column-end: 6;
   grid-row-start: 0;
@@ -195,4 +195,8 @@ fieldset {
   box-shadow: 2px 2px 4px #888;
   height: 50px; /* Aquí se define la altura */
 }
+
+	
+
+
 
