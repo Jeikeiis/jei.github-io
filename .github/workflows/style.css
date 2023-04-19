@@ -33,13 +33,7 @@ a {
 	size
 }
 
-#fa {
-	font-size: 2em;
-	padding: 7px;
-	height: 2px;
-	white-space: nowrap;
-	margin: 10px;	
-}
+
 
 
 body {
@@ -118,7 +112,7 @@ background-color: #EEE8AA;
   grid-row-end: 4;
 	border-color: black;
 	border-radius: 10px;
-	border: 10px solid transparent;
+	border: 5px ridge lightpink;
 	padding: 1px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px transparent;
