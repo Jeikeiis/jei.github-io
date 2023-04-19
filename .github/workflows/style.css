@@ -15,7 +15,7 @@
   margin: 1px;
   grid-template-areas:
     "header header introheader header header"
-    "sidebar1 introinsidebar1 . main . introinsidebar2 sidebar2"
+    "sidebar1 introinsidebar1 main introinsidebar2 sidebar2"
     "footer introinsidebar1 footer introinsidebar2 footer";
   width: 100%;
   font-size: 15px;
@@ -43,14 +43,14 @@ a {
 body {
 	margin: 40px;
 	padding: 40px;
-	background-color: #CCB7BA;
+	background-color: #EEE8AA;
 	font-family: arial;
 }
 
 .header 	{
 	background-color: transparent;
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 7;
   grid-row-start: 0;
   grid-row-end: 1;
 	/*Hasta aqui esta bien hecho el Grid*/
@@ -73,7 +73,7 @@ body {
 background-color: #EEE8AA;
   color: black;
   text-shadow: 1px 1px transparent;
-  grid-column-start: 0;
+  grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 3;
@@ -97,13 +97,12 @@ background-color: #EEE8AA;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-end: 4;
 	border-color: inherit;
 	border-radius: 10px;
 	padding: 15px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px #888;
-	width: 200px;
 	
 }
 
@@ -111,9 +110,9 @@ background-color: #EEE8AA;
 .introinsidebar1	{
 	background-color: #78FFF1;
  grid-column-start: 1;
-  grid-column-end: 1;
+  grid-column-end: 2;
   grid-row-start: 1;
-  grid-row-end: 1;
+  grid-row-end: 4;
 	border-color: black;
 	border-radius: 10px;
 	padding: 1px;
@@ -132,7 +131,7 @@ background-color: #EEE8AA;
   grid-column-start: 2;
   grid-column-end: 5;
   grid-row-start: 1;
-  grid-row-end: 5;
+  grid-row-end: 4;
 	border-color: inherit;
 	border-radius: 10px;
 	padding: 20px;
@@ -198,6 +197,3 @@ fieldset {
 }
 
 	
-
-
-
