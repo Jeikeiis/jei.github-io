@@ -1,16 +1,7 @@
-/*https://images.pexels.com/photos/1640771/pexels-photo-1640771.jpeg*/
-
-
-
-
-
-	
 .grid {
-  display: grid;  
+  display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 0.1fr 3fr 0.1fr 0.1fr;
-
-
   background-color: #EEE8AA;
   color: black;
   margin: 1px;
@@ -20,189 +11,143 @@
     "footer introinsidebar1 footer introinsidebar2 footer";
   width: 100%;
   font-size: 15px;
-    border: 15px solid transparent;
-    border-color: transparent;
-	border-radius: 0px;
+  border: 15px solid transparent;
+  border-color: transparent;
+  border-radius: 0px;
 }
-
-
 
 a {
-	color: black;
-	text-decoration: none;
-	line-height: 2;
-	white-space: nowrap;
-	size
+  color: black;
+  text-decoration: none;
+  line-height: 2;
+  white-space: nowrap;
 }
 
-
 h1 {
-font-size: 16px;  
+  font-size: 16px;
 }
 
 h2 {
-  font-size: 14px;  
-  }
-
-body {
-	margin: 3%;
-	padding: 3%;
-	background-color: #EEE8AA;
-	font-family: serif;
+  font-size: 14px;
 }
 
-.header 	{
-	background-color: transparent;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 1;
-  grid-row-end: 2;
-	/*Hasta aqui esta bien hecho el Grid*/
-	text-align: center;
+body {
+  margin: 3%;
+  padding: 3%;
+  background-color: #EEE8AA;
+  font-family: serif;
+}
 
-	border-color: goldenrod;
-	border-width: 2px;
-	border-radius: 10px;
-	padding: 1px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px transparent;
-	width: 100%;
-	padding: 10px;
+.header {
+  background-color: transparent;
+  grid-column: 1 / 6;
+  grid-row: 1 / 2;
+  text-align: center;
+  border-color: goldenrod;
+  border-width: 2px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
+  width: 100%;
   background-size: cover;
   background-position: center center;
 }
 
-
-.introheader 	{
-background-color: #EEE8AA;
+.introheader {
+  background-color: #EEE8AA;
   color: black;
   text-shadow: 1px 1px transparent;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
   text-align: center;
   border: 7px solid antiquewhite;
   border-color: antiquewhite;
-	border-radius: 100px;
-  padding: 1px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
-  margin-top: 0;
+  border-radius: 100px;
   padding: 30px;
   font-size: 18px;
   background-image: url('https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-size: cover;
   background-position: center center;
 }
-	
 
-.sidebar1	{
-	background-color: #40E0D0;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 4;
-	border-color: #FF1493;
-	border: 10px solid transparent;
-	border-radius: 10px;
-	padding: 15px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px #888;
-	
-}
-
-
-.introinsidebar1	{
-	background-color: #78FFF1;
- grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 3;
-  grid-row-end: 4;
-	border-color: lightpink;
-	border-radius: 10px;
-	border: 5px ridge lightpink;
-	padding: 1px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px transparent;
-	overflow: hidden;
-	/*tamaño del menu de dentro*/
-	height: 99%;
-	
-}
-
-
-
-.main	{
-	background-color: white;
-  grid-column-start: 2;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 4;
-	border-color: inherit;
-	border-radius: 1px;
-  border: 10px solid white;
-	padding: 15px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px #888;
-}
-
-.sidebar2	{
-  background-color: #FF1493;
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  border-color: inherit;
+.sidebar1 {
+  background-color: #40E0D0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  border-color: #FF1493;
+  border: 10px solid transparent;
   border-radius: 10px;
-	border: 10px solid transparent;
   padding: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px #888;
-	
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+}
+
+.introinsidebar1 {
+  background-color: #78FFF1;
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  border-color: lightpink;
+  border-radius: 10px;
+  border: 5px ridge lightpink;
+  padding: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
+  overflow: hidden;
+  height: 99%;
 }
 
 
-.introinsidebar2	{
-	color: black;
-	background-color: #FFD7ED;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
-	border-color: white;
-	border-radius: 10px;
-	border: 5px ridge deepskyblue;
-	padding: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	box-shadow: 2px 2px 4px transparent;
-	overflow: hidden;
-	height: 100%;
-	width: 99%;
-	white-space: nowrap;
-}
 
-fieldset {
-	border-style: groove;
-	border-radius: 15px;
-	border-color: black;
-}
-
-
-.footer {
+.main {
+  background-color: white;
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+  border: 10px solid white;
+  border-radius: 1px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+  }
+  
+  .sidebar2 {
+  background-color: #FF1493;
+  grid-column: 5 / 6;
+  grid-row: 2 / 4;
+  border: 10px solid transparent;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+  }
+  
+  .introinsidebar2 {
+  color: black;
+  background-color: #FFD7ED;
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+  border: 5px ridge deepskyblue;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
+  overflow: hidden;
+  height: 100%;
+  width: 99%;
+  white-space: nowrap;
+  }
+  
+  fieldset {
+  border-style: groove;
+  border-radius: 15px;
+  border-color: black;
+  }
+  
+  .footer {
   background-color: black;
   color: white;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 4;
-  grid-row-end: 4;
-  /*Hasta aqui esta bien hecho el Grid*/
+  grid-column: 1 / 6;
+  grid-row: 4 / 4;
   text-align: center;
-  border-color: inherit;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  box-shadow: 2px 2px 4px #888;
-  height: 50px; /* Aquí se define la altura */
-}
-
-	
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+  height: 50px;
+  }
+  
+  
+  
