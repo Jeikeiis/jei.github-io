@@ -168,8 +168,8 @@ background-color: #EEE8AA;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px transparent;
 	overflow: hidden;
-	height: 1000px;
-	width: 200px;
+	height: 100%;
+	width: 99%;
 	white-space: nowrap;
 }
 
