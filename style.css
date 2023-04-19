@@ -50,7 +50,7 @@ body {
 .header 	{
 	background-color: transparent;
   grid-column-start: 1;
-  grid-column-end: 6;
+  grid-column-end: 7;
   grid-row-start: 0;
   grid-row-end: 1;
 	/*Hasta aqui esta bien hecho el Grid*/
