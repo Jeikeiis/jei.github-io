@@ -47,7 +47,7 @@ body {
   border-width: 2px;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
   width: 100%;
   background-size: cover;
   background-position: center center;
@@ -148,6 +148,4 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
   height: 50px;
   }
-  
-  
   
