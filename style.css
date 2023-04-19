@@ -43,7 +43,7 @@ a {
 body {
 	margin: 40px;
 	padding: 40px;
-	background-color: #CCB7BA;
+	background-color: #EEE8AA;
 	font-family: arial;
 }
 
@@ -73,7 +73,7 @@ body {
 background-color: #EEE8AA;
   color: black;
   text-shadow: 1px 1px transparent;
-  grid-column-start: 0;
+  grid-column-start: 1;
   grid-column-end: 1;
   grid-row-start: 1;
   grid-row-end: 3;
