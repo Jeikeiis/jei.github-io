@@ -12,7 +12,6 @@
   grid-template-rows: repeat(3, 1fr) 0.1fr; /* El footer ocupa el 10% de la altura total */
   background-color: #FFFFDD;
   color: black;
-  font-family: arial;
   margin: 1px;
   grid-template-areas:
     "header header introheader header header"
@@ -45,6 +44,7 @@ body {
 	margin: 40px;
 	padding: 40px;
 	background-color: #CCB7BA;
+	font-family: arial;
 }
 
 .header 	{
