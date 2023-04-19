@@ -15,7 +15,7 @@
   margin: 1px;
   grid-template-areas:
     "header header introheader header header"
-    "sidebar1 introinsidebar1 . main . introinsidebar2 sidebar2"
+    "sidebar1 introinsidebar1 main introinsidebar2 sidebar2"
     "footer introinsidebar1 footer introinsidebar2 footer";
   width: 100%;
   font-size: 15px;
