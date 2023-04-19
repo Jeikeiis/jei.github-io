@@ -1,13 +1,15 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: 0.1fr 8fr 0.1fr 0.1fr;
+  grid-template-rows: 1fr 1fr 6fr 1.5fr 0.1fr;
   background-color: #EEE8AA;
   color: black;
   margin: 1px;
   grid-template-areas:
     "header header introheader header header"
     "sidebar1 introinsidebar1 main introinsidebar2 sidebar2"
+    "sidebar1 arribafooter arribafooter arribafooter sidebar2"
+    "sidebar1 contenidofooter contenidofooter contenidofooter sidebar2"
     "footer introinsidebar1 footer introinsidebar2 footer";
   width: 100%;
   font-size: 15px;
@@ -16,12 +18,11 @@
   border-radius: 0px;
 }
 
-
 @media (max-width: 375px) {
   .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 0.1fr 8fr 0.1fr 0.1fr;
+  grid-template-rows: 0.1fr 8fr 0.4fr 0.1fr;
   background-color: #EEE8AA;
   color: black;
   margin: 1px;
@@ -39,6 +40,22 @@
   border-color: transparent;
   border-radius: 0px;
   }
+}
+
+
+
+
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 
@@ -99,7 +116,7 @@ body {
 .sidebar1 {
   background-color: #40E0D0;
   grid-column: 1 / 2;
-  grid-row: 2 / 3;
+  grid-row: 2 / 5;
   border-color: #FF1493;
   border: 10px solid transparent;
   border-radius: 10px;
@@ -110,7 +127,7 @@ body {
 .introinsidebar1 {
   background-color: #78FFF1;
   grid-column: 1 / 2;
-  grid-row: 3 / 3;
+  grid-row: 2 / 4;
   border-color: lightpink;
   border-radius: 10px;
   border: 5px ridge lightpink;
@@ -125,7 +142,7 @@ body {
 .main {
   background-color: lightyellow;
   grid-column: 2 / 5;
-  grid-row: 2 / 3;
+  grid-row: 2 / 5;
   border: 7px double mediumspringgreen;
   border-radius: 1px;
   padding: 15px;
@@ -135,7 +152,7 @@ body {
   .sidebar2 {
   background-color: #FF1493;
   grid-column: 5 / 6;
-  grid-row: 2 / 3;
+  grid-row: 2 / 5;
   border: 10px solid transparent;
   border-radius: 10px;
   padding: 15px;
@@ -162,16 +179,36 @@ body {
   border-radius: 15px;
   border-color: black;
   }
+
+
   
+  .arribafooter {
+    background-color: slateblue;
+    color: white;
+    grid-column: 1 / 6;
+    grid-row: 4 / 5;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+    height: 100%;
+    margin: 2em;
+  }
+
   .footer {
   background-color: black;
   color: white;
   grid-column: 1 / 6;
-  grid-row: 4 / 4;
+  grid-row: 4 / 5;
   text-align: center;
   border-radius: 10px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
   height: 100%;
+  margin: 0em;
   }
   
+
+  .contenidofooter {
+    grid-area: contenidofooter;
+  }
