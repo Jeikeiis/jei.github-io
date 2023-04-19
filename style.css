@@ -95,7 +95,7 @@ background-color: #EEE8AA;
 .sidebar1	{
 	background-color: #40E0D0;
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 5;
 	border-color: inherit;
