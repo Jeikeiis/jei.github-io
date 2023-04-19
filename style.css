@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(3, 1fr) 0.0fr; /* El footer ocupa el 10% de la altura total */
-  background-color: #FFFFDD;
+  background-color: #EEE8AA;
   color: black;
   margin: 1px;
   grid-template-areas:
@@ -80,8 +80,8 @@ background-color: #EEE8AA;
   grid-row-start: 1;
   grid-row-end: 3;
   text-align: center;
-  	border: 3.5px solid gold;
-  border-color: gold;
+    border: 13px solid white;
+    border-color: white;
 	border-radius: 100px;
   padding: 1px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
