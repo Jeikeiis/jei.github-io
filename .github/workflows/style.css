@@ -81,7 +81,7 @@ background-color: #EEE8AA;
   grid-row-end: 2;
   text-align: center;
     border: 13px solid white;
-    border-color: white;
+    border-color: orange;
 	border-radius: 100px;
   padding: 1px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 2px 2px 4px transparent;
@@ -124,7 +124,7 @@ background-color: #EEE8AA;
 	box-shadow: 2px 2px 4px transparent;
 	overflow: hidden;
 	/*tamaño del menu de dentro*/
-	height: 110px;
+	height: 99%;
 	
 }
 
