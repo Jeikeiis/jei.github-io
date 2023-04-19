@@ -6,9 +6,10 @@
 
 	
 .grid {
-  display: grid;
+  display: grid;  
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(1, 1fr) 0.5fr repeat(2, 1fr) 0.1fr; /* El footer ocupa el 0% de la altura total */
+  grid-template-rows: repeat(1, 0fr) 1fr repeat(2, 1fr) 1fr;
+  
   background-color: #EEE8AA;
   color: black;
   margin: 1px;
