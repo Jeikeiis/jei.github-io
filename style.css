@@ -17,7 +17,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 375px) {
   .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
