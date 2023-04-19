@@ -7,9 +7,8 @@
 	
 .grid {
   display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr) 0.1fr; /* El footer ocupa el 10% de la altura total */
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(3, 1fr) 0.0fr; /* El footer ocupa el 10% de la altura total */
   background-color: #FFFFDD;
   color: black;
   margin: 1px;
@@ -17,8 +16,11 @@
     "header header introheader header header"
     "sidebar1 introinsidebar1 main introinsidebar2 sidebar2"
     "footer introinsidebar1 footer introinsidebar2 footer";
-  width: 100%;
+  width: 100%; 
   font-size: 15px;
+	border: 10px solid transparent;
+	border-color: transparent;
+	border-radius: 100px;
 }
 
 
@@ -41,8 +43,8 @@ a {
 
 
 body {
-	margin: 40px;
-	padding: 40px;
+	margin: 3%;
+	padding: 3%;
 	background-color: #EEE8AA;
 	font-family: arial;
 }
@@ -98,7 +100,8 @@ background-color: #EEE8AA;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 4;
-	border-color: inherit;
+	border-color: #FF1493;
+	border: 10px solid transparent;
 	border-radius: 10px;
 	padding: 15px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -115,6 +118,7 @@ background-color: #EEE8AA;
   grid-row-end: 4;
 	border-color: black;
 	border-radius: 10px;
+	border: 10px solid transparent;
 	padding: 1px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px transparent;
@@ -147,6 +151,7 @@ background-color: #EEE8AA;
   grid-row-end: 5;
   border-color: inherit;
   border-radius: 10px;
+	border: 10px solid transparent;
   padding: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px #888;
@@ -163,6 +168,7 @@ background-color: #EEE8AA;
   grid-row-end: 4;
 	border-color: white;
 	border-radius: 10px;
+	border: 10px solid transparent;
 	padding: 10px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 	box-shadow: 2px 2px 4px transparent;
