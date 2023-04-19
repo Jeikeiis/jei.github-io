@@ -10,7 +10,7 @@
   grid-gap: 15px;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(3, 1fr) 0.1fr; /* El footer ocupa el 10% de la altura total */
-  background-color: #CCB7BA;
+  background-color: #FFFFDD;
   color: black;
   font-family: arial;
   margin: 1px;
