@@ -7,8 +7,10 @@
 	
 .grid {
   display: grid;  
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 0.1fr 5fr 5fr 0.1fr;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 0.1fr 3fr 1fr 0.1fr;
+
+
   background-color: #EEE8AA;
   color: black;
   margin: 1px;
@@ -46,7 +48,7 @@ body {
 .header 	{
 	background-color: transparent;
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 6;
   grid-row-start: 1;
   grid-row-end: 2;
 	/*Hasta aqui esta bien hecho el Grid*/
@@ -93,7 +95,7 @@ background-color: #EEE8AA;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 4;
 	border-color: #FF1493;
 	border: 10px solid transparent;
 	border-radius: 10px;
@@ -108,7 +110,7 @@ background-color: #EEE8AA;
 	background-color: #78FFF1;
  grid-column-start: 1;
   grid-column-end: 2;
-  grid-row-start: 2;
+  grid-row-start: 3;
   grid-row-end: 4;
 	border-color: lightpink;
 	border-radius: 10px;
@@ -127,9 +129,9 @@ background-color: #EEE8AA;
 .main	{
 	background-color: white;
   grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-end: 5;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 4;
 	border-color: inherit;
 	border-radius: 1px;
   border: 10px solid white;
@@ -140,10 +142,10 @@ background-color: #EEE8AA;
 
 .sidebar2	{
   background-color: #FF1493;
-  grid-column-start: 3;
-  grid-column-end: 4;
+  grid-column-start: 5;
+  grid-column-end: 6;
   grid-row-start: 2;
-  grid-row-end: 6;
+  grid-row-end: 4;
   border-color: inherit;
   border-radius: 10px;
 	border: 10px solid transparent;
@@ -184,9 +186,9 @@ fieldset {
   background-color: black;
   color: white;
   grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 6;
-  grid-row-end: 8;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 4;
   /*Hasta aqui esta bien hecho el Grid*/
   text-align: center;
   border-color: inherit;
