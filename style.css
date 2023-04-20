@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr 6fr 1.5fr 0.1fr;
-  background-color: #EEE8AA;
+  background-color: #eee8aa;
   color: black;
   margin: 1px;
   grid-template-areas:
@@ -20,31 +20,27 @@
 
 @media (max-width: 375px) {
   .grid {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 0.1fr 8fr 0.4fr 0.1fr;
-  background-color: #EEE8AA;
-  color: black;
-  margin: 1px;
-  grid-template-areas:
-  "header"
-  "sidebar1"
-  "main"
-  "sidebar2"
-  "introinsidebar1"
-  "introinsidebar2"
-  "footer";
-  width: 100%;
-  font-size: 15px;
-  border: 15px solid transparent;
-  border-color: transparent;
-  border-radius: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 0.1fr 8fr 0.4fr 0.1fr;
+    background-color: #eee8aa;
+    color: black;
+    margin: 1px;
+    grid-template-areas:
+      "header"
+      "sidebar1"
+      "main"
+      "sidebar2"
+      "introinsidebar1"
+      "introinsidebar2"
+      "footer";
+    width: 100%;
+    font-size: 15px;
+    border: 15px solid transparent;
+    border-color: transparent;
+    border-radius: 0px;
   }
 }
-
-
-
-
 
 .btn {
   background-color: #007bff;
@@ -57,7 +53,6 @@
   font-size: 16px;
   border-radius: 5px;
 }
-
 
 a {
   color: black;
@@ -77,7 +72,7 @@ h2 {
 body {
   margin: 3%;
   padding: 3%;
-  background-color: #EEE8AA;
+  background-color: #eee8aa;
   font-family: serif;
 }
 
@@ -97,7 +92,7 @@ body {
 }
 
 .introheader {
-  background-color: #EEE8AA;
+  background-color: #eee8aa;
   color: black;
   text-shadow: 1px 1px transparent;
   grid-column: 1 / 4;
@@ -108,16 +103,16 @@ body {
   border-radius: 100px;
   padding: 30px;
   font-size: 18px;
-  background-image: url('https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: url("https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   background-position: center center;
 }
 
 .sidebar1 {
-  background-color: #40E0D0;
+  background-color: #40e0d0;
   grid-column: 1 / 2;
   grid-row: 2 / 5;
-  border-color: #FF1493;
+  border-color: #ff1493;
   border: 10px solid transparent;
   border-radius: 10px;
   padding: 15px;
@@ -125,7 +120,7 @@ body {
 }
 
 .introinsidebar1 {
-  background-color: #78FFF1;
+  background-color: #78fff1;
   grid-column: 1 / 2;
   grid-row: 2 / 4;
   border-color: lightpink;
@@ -137,8 +132,6 @@ body {
   height: 100%;
 }
 
-
-
 .main {
   background-color: lightyellow;
   grid-column: 2 / 5;
@@ -147,21 +140,21 @@ body {
   border-radius: 1px;
   padding: 15px;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
-  }
-  
-  .sidebar2 {
-  background-color: #FF1493;
+}
+
+.sidebar2 {
+  background-color: #ff1493;
   grid-column: 5 / 6;
   grid-row: 2 / 5;
   border: 10px solid transparent;
   border-radius: 10px;
   padding: 15px;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
-  }
-  
-  .introinsidebar2 {
+}
+
+.introinsidebar2 {
   color: black;
-  background-color: #FFD7ED;
+  background-color: #ffd7ed;
   grid-column: 3 / 4;
   grid-row: 2 / 3;
   border: 5px ridge deepskyblue;
@@ -172,30 +165,28 @@ body {
   height: 100%;
   width: 100%;
   white-space: nowrap;
-  }
-  
-  fieldset {
+}
+
+fieldset {
   border-style: groove;
   border-radius: 15px;
   border-color: black;
-  }
+}
 
+.arribafooter {
+  background-color: slateblue;
+  color: white;
+  grid-column: 1 / 6;
+  grid-row: 4 / 5;
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
+  height: 100%;
+  margin: 2em;
+}
 
-  
-  .arribafooter {
-    background-color: slateblue;
-    color: white;
-    grid-column: 1 / 6;
-    grid-row: 4 / 5;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
-    height: 100%;
-    margin: 2em;
-  }
-
-  .footer {
+.footer {
   background-color: black;
   color: white;
   grid-column: 1 / 6;
@@ -206,9 +197,8 @@ body {
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.2), 2px 2px 4px #888;
   height: 100%;
   margin: 0em;
-  }
-  
+}
 
-  .contenidofooter {
-    grid-area: contenidofooter;
-  }
+.contenidofooter {
+  grid-area: contenidofooter;
+}
